@@ -24,7 +24,7 @@
 
 body { 
   background: #0f0f0f; 
-  text-shadow: 4px 4px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
 /* ------------------------------------------------------------------ */
@@ -185,7 +185,9 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 ul#nav li a:hover { color: #F06000; }
 
-
+.hover:hover {
+  color: #F06000;
+}
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
