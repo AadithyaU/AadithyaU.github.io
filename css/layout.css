@@ -22,7 +22,10 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { 
+  background: #0f0f0f; 
+  text-shadow: 4px 4px rgba(0,0,0,0.5);
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -863,6 +866,11 @@ call-to-action .button {
    line-height: 24px;
    width: 65%;
 }
+
+#contact input {
+   letter-spacing: 2px;
+}
+
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
