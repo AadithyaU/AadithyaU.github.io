@@ -24,7 +24,7 @@
 
 body { 
   background: #0f0f0f; 
-  text-shadow: 1px 1px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px rgba(0,0,0,0.5);
 }
 
 /* ------------------------------------------------------------------ */
@@ -226,6 +226,7 @@ ul#nav li a:hover { color: #F06000; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
+   text-shadow: 0px 0px #000;
 }
 #about .download .button:hover {
    background: #fff;
@@ -533,6 +534,7 @@ ul#nav li a:hover { color: #F06000; }
 	background: #fff;
 	position: relative;
 	margin: 0 auto;
+  text-shadow: 0px 0px #000;
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
@@ -542,13 +544,14 @@ ul#nav li a:hover { color: #F06000; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #222;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #222;
    text-transform: uppercase;
+   font-weight: bold;
    letter-spacing: 2px;
    display: block;
    text-align: left;
@@ -568,7 +571,7 @@ ul#nav li a:hover { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
